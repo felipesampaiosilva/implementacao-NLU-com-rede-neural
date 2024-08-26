@@ -19,8 +19,8 @@ Este projeto implementa um modelo de classificação de intenções utilizando u
 
 3. **Avaliação do Modelo**:
    - **Métricas de Avaliação**:
-     - Recall: `{{RECALL_RESULT}}`
-     - F1-Score: `{{F1_SCORE_RESULT}}`
+     - Recall: 0.04950495049504951
+     - F1-Score: 0.0178979436405179
    - **Relatório de Classificação**:
      ```plaintext
      {{CLASSIFICATION_REPORT}}
@@ -28,13 +28,7 @@ Este projeto implementa um modelo de classificação de intenções utilizando u
 
 4. **Desempenho do Modelo**:
    - **Acurácia no Conjunto de Teste**:
-     - Loss: `{{LOSS_RESULT}}`
-     - Accuracy: `{{ACCURACY_RESULT}}`
+     - Loss: 2.890580654144287
+     - Accuracy: 0.049504950642585754
 
-## Resultados Obtidos
 
-- **Recall**: O modelo atingiu um recall de `{{RECALL_RESULT}}` no conjunto de teste, indicando uma boa capacidade de identificar corretamente as classes positivas.
-- **F1-Score**: O F1-Score foi de `{{F1_SCORE_RESULT}}`, refletindo o equilíbrio entre precisão e recall.
-- **Relatório de Classificação**:
-  ```plaintext
-  {{CLASSIFICATION_REPORT}}
